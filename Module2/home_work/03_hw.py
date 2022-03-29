@@ -30,4 +30,8 @@
 # 19 189.81 Rub.
 # 20 199.8 Rub.
 
-# TODO: your code here
+count = 1
+price=float(input("стоимость товара "))
+while count <21:
+    print (count," ",count*price, " Rub.") 
+    count = count+1
